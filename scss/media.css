@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-row, .navigation, .navigation div.menu-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.flex-center, .navigation div.logo-container, .navigation div.menu-container ul, .navigation div.toggle-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.h-100, .navigation div {
+  height: 100%;
+}
+
+.navigation {
+  border-bottom: 2px solid #faf6f6;
+  height: 50px;
+}
+
+.navigation [class^=fa] {
+  font-size: 2rem;
+}
+
+.navigation div {
+  height: 100%;
+}
+
+.navigation div.logo-container {
+  max-width: 50px;
+  margin-left: 30px;
+}
+
+.navigation div.logo-container .fab {
+  font-size: 2rem;
+}
+
+.navigation div.menu-container ul {
+  margin-left: 30px;
+  height: 100%;
+  list-style: none;
+}
+
+.navigation div.menu-container ul li {
+  margin-right: 15px;
+  font-size: 2rem;
+}
+
+.navigation div.menu-container ul li a {
+  text-decoration: none;
+}
+
+.navigation div.menu-container ul li:hover {
+  background-color: gray;
+}
+
+.navigation div.toggle-container {
+  margin-right: 30px;
+}
+
+@media screen and (min-width: 678px) and (max-width: 992px) {
+  fieldset {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 18%;
+    margin-bottom: 19%;
+  }
+  .flex-card-4 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 677px) {
+  fieldset {
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  .flex-card-4 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  .flex-card-2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 535px) {
+  .flex-card-1 {
+    background-image: url(pexels-cottonbro-4065877.jpg);
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 610px;
+    opacity: 0.8;
+    color: black;
+  }
+  .text {
+    font-size: 17px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-right: 20px;
+    margin-left: 40px;
+    margin-right: 7px;
+  }
+}
+
+/*@media screen and (max-width: 888px){
+    
+        .flex-card-4{
+        margin-top: 20px;
+        margin-bottom: 1000px;
+      }
+    
+}
+@media screen and (max-width: 888px){
+    .background{
+            background-image: url(./homework13/1.jpg);
+            background-size: 100%;
+            background-position: bottom;
+          background-repeat: no-repeat;
+          background-size: cover;
+    }
+}*/
+/*# sourceMappingURL=media.css.map */

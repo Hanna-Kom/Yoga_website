@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-row, .navigation, .navigation div.menu-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.flex-center, .navigation div.logo-container, .navigation div.menu-container ul, .navigation div.toggle-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.h-100, .navigation div {
+  height: 100%;
+}
+
+.navigation {
+  height: 120px;
+}
+
+.navigation [class^=fa] {
+  font-size: 2rem;
+}
+
+.navigation div {
+  height: 100%;
+}
+
+.navigation div.logo-container {
+  max-width: 50px;
+  margin-left: 30px;
+}
+
+.navigation div.logo-container .fab {
+  font-size: 2rem;
+}
+
+.navigation div.menu-container ul {
+  margin-right: 5vw;
+  height: 100%;
+  list-style: none;
+}
+
+.navigation div.menu-container ul li {
+  margin-right: 1vw;
+  margin-left: 7vw;
+  font-size: 1rem;
+}
+
+.navigation div.menu-container ul li a {
+  text-decoration: none;
+  color: #555151;
+}
+
+.navigation div.menu-container ul li:hover {
+  background-color: #fcc9bd;
+}
+
+.navigation div.toggle-container {
+  margin-right: 30px;
+}
+/*# sourceMappingURL=nav.css.map */

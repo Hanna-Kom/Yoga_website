@@ -1,0 +1,190 @@
+body {
+    font-family:'Noto Sans JP', sans-serif;
+    color:rgb(85, 81, 81);
+}
+
+.flex-card-1 {
+    background-image: url(./img/yog00056558888a.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+  }
+.text{
+  font-size: 4vh;
+  padding-top: 10vh;
+  padding-left: 15vh;
+  margin-left: 47vw;
+  margin-right: 3vw;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+.text-2{
+  font-size: 4vh;
+  padding-top: 10vh;
+  padding-right: 15vh;
+  margin-right: 47vw;
+  margin-left: 3vw;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+.title{
+  font-size: 7vh;
+  margin-bottom: 6vh;
+}
+
+.button {
+    background-color: rgb(252, 201, 189); 
+    border: none;
+    padding: 12px 42px;
+    margin-top: 9vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold; 
+    color:rgb(85, 81, 81);
+}
+
+.flex-card-2 {
+    background-image: url(./img/yoga01.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+  }
+
+
+/*Yoga Posses*/
+.flex-container-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 8%;
+    }
+    
+    .flex-card-3 {
+      width: 20vw;
+      height: 55vh;
+      background-color: white;
+      border-radius: 5px;
+      padding: 60px, 0;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-between; 
+      }
+
+      .title-flex{
+        font-weight:bold;
+      }
+    
+      .flex-card-4 {
+        background-image: url(./img/yoga2222.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+      }
+      .flex-card-5 {
+        background-image: url(./img/yoga456.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+      }
+
+      /*Galery*/
+      .box {
+        background-image: url(./img/yoga45523.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 145vh;
+      }
+      .text-3{
+        text-align:center;
+        padding-top: 8vh;
+        font-size: 4vh;
+        padding-left: 15%;
+        padding-right: 15%;
+      }
+
+     .flex-container-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    }
+    
+    .flex-card-6 {
+      width: 28vw;
+      height: 90vh;
+      background-color: white;
+      border-radius: 1px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-between; 
+      }
+
+     
+
+  
+
+    /*Form*/
+    
+    .form-control::placeholder {
+        color: rgb(85, 81, 81);
+    }
+    
+    
+    .form-control:focus {
+        border-left-color: rgb(32, 25, 54);
+    }
+    
+    .form-control{
+            background-color:rgb(194, 200, 204);
+            color:rgb(85, 81, 81);
+            padding: 10px;
+    }
+    
+    input[type="text"] {
+            font-size: 16px;
+            height: 16px;
+            width: 70vw;
+    }
+    
+    .container{
+        margin-top: 40px;
+        margin-left: 15%;
+        margin-right: 15%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .button:focus{
+        background-color:rgb(243, 218, 198);
+        color:rgb(85, 81, 81);
+        border: radius 0;
+        border: 0;
+        box-shadow: none;
+        border-left: 2px solid transparent;
+    }
